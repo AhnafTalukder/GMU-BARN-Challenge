@@ -1,0 +1,3 @@
+[submodule "jackal_ws/src/the-barn-challenge"]
+	path = jackal_ws/src/the-barn-challenge
+	url = https://github.com/Daffan/the-barn-challenge.git
