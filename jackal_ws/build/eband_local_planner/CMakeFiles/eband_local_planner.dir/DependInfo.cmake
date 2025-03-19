@@ -14,6 +14,9 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
+  "BOOST_ALL_NO_LIB"
+  "BOOST_ATOMIC_DYN_LINK"
+  "BOOST_THREAD_DYN_LINK"
   "ROSCONSOLE_BACKEND_LOG4CXX"
   "ROS_BUILD_SHARED_LIBS=1"
   "ROS_PACKAGE_NAME=\"eband_local_planner\""
@@ -24,6 +27,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/ahnaf/BARN/jackal_ws/devel/include"
   "/home/ahnaf/BARN/jackal_ws/src/eband_local_planner/include"
+  "/home/ahnaf/BARN/jackal_ws/src/base_local_planner/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"
@@ -31,6 +35,8 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/ahnaf/BARN/jackal_ws/build/base_local_planner/CMakeFiles/trajectory_planner_ros.dir/DependInfo.cmake"
+  "/home/ahnaf/BARN/jackal_ws/build/base_local_planner/CMakeFiles/base_local_planner.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

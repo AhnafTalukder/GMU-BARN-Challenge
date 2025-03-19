@@ -141,7 +141,9 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/ahnaf/BARN/jackal_ws/build/jackal/jackal_navigation/cmake_install.cmake")
   include("/home/ahnaf/BARN/jackal_ws/build/jackal_desktop/jackal_viz/cmake_install.cmake")
   include("/home/ahnaf/BARN/jackal_ws/build/the-barn-challenge/jackal_helper/cmake_install.cmake")
+  include("/home/ahnaf/BARN/jackal_ws/build/base_local_planner/cmake_install.cmake")
   include("/home/ahnaf/BARN/jackal_ws/build/eband_local_planner/cmake_install.cmake")
+  include("/home/ahnaf/BARN/jackal_ws/build/navfn/cmake_install.cmake")
 
 endif()
 
